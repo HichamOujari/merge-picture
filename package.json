@@ -1,6 +1,6 @@
 {
-  "name": "generator-news-pic",
-  "private": true,
+  "name": "merge-pic",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",

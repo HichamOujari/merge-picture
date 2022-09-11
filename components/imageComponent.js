@@ -26,8 +26,8 @@ class ImageComponent extends Component {
           > Download image</i>
         </div>
         <div id={"photo" + this.props.myKey} className={styles.allPict}>
-          {this.props.data.map(image => (
-            <img src={image} className={styles.mergedImage} />))}
+          {this.props.data.map((image,index) => (
+            <img key={index} src={image} className={styles.mergedImage} />))}
         </div>
       </div>
     );
