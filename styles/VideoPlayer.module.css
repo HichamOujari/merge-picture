@@ -1,0 +1,21 @@
+.video{
+  width:90%;
+  height:90vh;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  object-fit: fill;
+}
+
+.btn{
+  position: fixed;
+  z-index: 100;
+  top:49vh;
+  left:Calc(50vw - 75px);
+  background:green;
+  color:white;
+  padding:10px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  width:150px;
+}
