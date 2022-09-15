@@ -7,7 +7,7 @@ function VideoPlayer() {
 
     return (
         <div className={styles.videoPlayer}>
-            <video controls onEnded={()=> btnPlay.current.style.display = 'block'} ref={videoRef} className={styles.video}>
+            <video onEnded={()=> btnPlay.current.style.display = 'block'} ref={videoRef} className={styles.video}>
                 <source src="/video.mp4"></source>
             </video>
             <button ref={btnPlay} className={styles.btn} onClick={()=>{
