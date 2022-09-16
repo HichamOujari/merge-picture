@@ -1,3 +1,11 @@
+.video{
+  width:90%;
+  height:90vh;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  object-fit: fill;
+}
+
 .btn{
   position: fixed;
   z-index: 100;
@@ -10,14 +18,4 @@
   border-radius: 20px;
   cursor: pointer;
   width:150px;
-}
-
-.videoWrapper{
-  width:100vw;
-  height:100vh;
-  background:red;
-}
-
-.videoPlayer{
-  object-fit: fill;
 }
