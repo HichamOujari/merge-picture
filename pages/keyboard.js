@@ -6,16 +6,9 @@ function Keyboard() {
 
     return (
         <div className={styles.videoPlayer}>
-            <div style={{display:'none'}}>
-                <input ref={inputRed} type="text" />
-            </div>
-            <button className={styles.btn} onClick={() => {
-                document.addEventListener('keydown', (event) => {
-                    var name = event.key;
-                    var code = event.code;
-                    // Alert the key name and key code on keydown
-                    alert(`Key pressed ${name} \r\n Key code value: ${code}`);
-                  }, false);
+            <input ref={inputRed} type="text" style={{width: '0px', height:"0px", background:'transparent',border: '1px solid transparent'}} />
+            <button className={styles.btn} onClick={()=>{
+               inputRed.current.focus()
             }}>Show keyboard</button>
         </div>
     );
