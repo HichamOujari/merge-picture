@@ -6,7 +6,7 @@ function Keyboard() {
 
     return (
         <div className={styles.videoPlayer}>
-            <input ref={inputRed} type="text" hidden={false} />
+            <input ref={inputRed} type="text" style={{visibility: 'hidden'}}/>
             <button className={styles.btn} onClick={()=>{
                inputRed.current.focus()
             }}>Show keyboard</button>
